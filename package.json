@@ -1,0 +1,14 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "Cy project test bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Egor Antsyshkin",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.1.0"
+  }
+}
