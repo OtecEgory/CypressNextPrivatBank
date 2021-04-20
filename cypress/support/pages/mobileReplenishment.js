@@ -1,6 +1,4 @@
-const dataQaNode = 'data-qa-node'
-const amount = '.amount'
-
+import {dataQaNode, amount} from '../data'
 export class MobilePhoneReplenishment {
     
     typePhoneNumber(phoneNumber){
