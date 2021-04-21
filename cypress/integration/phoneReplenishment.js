@@ -1,14 +1,15 @@
 import {mobileReplenishment} from '../support/pages/mobileReplenishment'
 import {data} from '../support/data'
+import {basePage} from '../support/pages/basePage'
 
-it.only('Mobile phone replenishment', () => {
+it('Mobile phone replenishment', () => {
     cy.visit('https://next.privat24.ua/mobile?lang=en')
 
     mobileReplenishment.typePhoneNumber(data.typeNumber)
 
-    mobileReplenishment.typeAmount(data.typeAmount)
+    basePage.typeAmount(data.typeAmount)
 
-    mobileReplenishment.typeDebitCardData(
+    basePage.typeDebitCardData(
         data.cardNumber,
         data.expDate,
         data.cvv,
@@ -16,7 +17,7 @@ it.only('Mobile phone replenishment', () => {
 
     mobileReplenishment.waitResponseServe()
     
-    mobileReplenishment.submitPaymant()
+    basePage.submitPaymant()
 
     mobileReplenishment.checkDebitCard(data.debitCard)
 

@@ -13,5 +13,19 @@ export const data = {
     debitCommission: '2',
     checkReceiverAmount: '1',
     paymantCurrency: 'UAH'
+}
 
+export const transfersData = {
+    firstName: 'Shayne',
+    lastName: 'McConnel',
+    receiverCard: '5309233034765085',
+    name: 'Juliana',
+    surname: 'Janssen',
+    comment: 'Cypress Project',
+    amountTransfer: '300',
+    debitCards: '* 8217',
+    receiverCards: '* 5085',
+    debitAmount: '300 UAH',
+    totalAmount: '388.87',
+    commission: '88.87 UAH'
 }
