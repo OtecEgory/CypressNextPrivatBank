@@ -3,7 +3,7 @@ import { basePage } from '../support/pages/basePage';
 import { transfers } from '../support/pages/transfers';
 
 it('Money transfer between foreing cards', () => {
-    cy.visit('https://next.privat24.ua/money-transfer/card?lang=en')
+    basePage.open(data.urlTransfers)
 
     basePage.typeDebitCardData(
         data.cardNumber,

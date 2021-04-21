@@ -3,7 +3,7 @@ import {data} from '../support/data'
 import {basePage} from '../support/pages/basePage'
 
 it('Mobile phone replenishment', () => {
-    cy.visit('https://next.privat24.ua/mobile?lang=en')
+    basePage.open(data.urlMobileReplenishment)
 
     mobileReplenishment.typePhoneNumber(data.typeNumber)
 

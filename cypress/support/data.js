@@ -12,7 +12,9 @@ export const data = {
     debitAmmount: '1',
     debitCommission: '2',
     checkReceiverAmount: '1',
-    paymantCurrency: 'UAH'
+    paymantCurrency: 'UAH',
+    urlMobileReplenishment: 'https://next.privat24.ua/mobile?lang=en',
+    urlTransfers: 'https://next.privat24.ua/money-transfer/card?lang=en',
 }
 
 export const transfersData = {
