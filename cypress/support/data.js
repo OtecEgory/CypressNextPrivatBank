@@ -1,4 +1,5 @@
 export const dataQaNode = 'data-qa-node'
+export const dataQaValue = 'data-qa-value'
 export const amount = '.amount'
 export const data = {
     typeNumber: '686979712',
@@ -28,6 +29,15 @@ export const transfersData = {
     debitCards: '* 8217',
     receiverCards: '* 5085',
     debitAmount: '300 UAH',
-    totalAmount: '388.87',
-    commission: '88.87 UAH'
+    totalAmount: '388.63',
+    commission: '88.63 UAH'
+}
+
+export const dataHome = {
+    urlHomePage: 'https://next.privat24.ua/',
+    nameTour: 'АйТі-тур АТ ТК',
+    fullName: 'Juliana Janssen',
+    numberContract: '22',
+    sumRate: '344',
+
 }

@@ -2,6 +2,10 @@ import {dataQaNode} from '../data'
 
 export class BasePage {
 
+    open(url){
+        cy.visit(url)
+    }
+
     typeAmount(amount){
         cy.get(`[${dataQaNode}="amount"]`)
             .type(amount)
@@ -22,6 +26,18 @@ export class BasePage {
         cy.get(`button[type="submit"]`)
             .click()
     }
+
+    mouseOverVisibleElement(element, index){
+        cy.get(element)
+            .eq(index)
+            .trigger('mouseover')
+    }
+    
+    clickHandlerItemMenu(element){
+        cy.get(element)
+            .click()
+    }
+    
 }
 
 export const basePage = new BasePage()
