@@ -11,3 +11,8 @@ test:
     - npm run start:ci &
     # run Cypress tests
     - npx cypress run --browser chrome
+- run:
+    command: |
+      echo Running test
+      mkdir -p /tmp/test-results
+      make test
