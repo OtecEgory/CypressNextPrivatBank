@@ -4,7 +4,9 @@
   "description": "Cy project test bank",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runHeadless": "./node-modules/.bin/cypress run --headless",
+    "runHeaded": "./node-modules/.bin/cypress run --headed -- browser chrome"
   },
   "author": "Egor Antsyshkin",
   "license": "ISC",
