@@ -9,6 +9,7 @@ const subMenuItem = `[${dataQaValue}="6"]`
 it('Travel payment', () => {
     basePage.open(dataHome.urlHomePage)
 
+    basePage.waitResponseServe()
     basePage.mouseOverVisibleElement(menuElement, 1)
     basePage.mouseOverVisibleElement(menuItem, null)
     basePage.mouseOverVisibleElement(subMenuItem, null)

@@ -37,6 +37,10 @@ export class BasePage {
         cy.get(element)
             .click()
     }
+
+    waitResponseServe(){
+        cy.wait(3000)
+    }
     
 }
 
