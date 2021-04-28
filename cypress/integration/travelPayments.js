@@ -6,7 +6,7 @@ const menuElement = `[${dataQaNode}="menu"]`
 const menuItem = `[${dataQaValue}="my_payments"]`
 const subMenuItem = `[${dataQaValue}="6"]`
 
-it.only('Travel payment', () => {
+it('Travel payment', () => {
     basePage.open(dataHome.urlHomePage)
 
     basePage.mouseOverVisibleElement(menuElement, 1)

@@ -29,8 +29,8 @@ export const transfersData = {
     debitCards: '* 8217',
     receiverCards: '* 5085',
     debitAmount: '300 UAH',
-    totalAmount: '388.63',
-    commission: '88.63 UAH'
+    totalAmount: '388.17',
+    commission: '88.17 UAH'
 }
 
 export const dataHome = {
