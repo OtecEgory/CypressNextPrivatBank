@@ -5,6 +5,7 @@ import { transfers } from '../support/pages/transfers';
 it('Money transfer between foreing cards', () => {
     basePage.open(data.urlTransfers)
 
+    basePage.waitResponseServe()
     basePage.typeDebitCardData(
         data.cardNumber,
         data.expDate,

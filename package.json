@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runHeadless": "./node-modules/.bin/sh -eo pipefail --headless",
-    "runHeaded": "./node-modules/.bin/sh -eo pipefail --headed -- browser chrome"
+    "runHeadless": "./node-modules/.bin/cypress run --headless",
+    "runHeaded": "./node-modules/.bin/cypress run --headed --browser --chrome"
   },
   "author": "Egor Antsyshkin",
   "license": "ISC",
