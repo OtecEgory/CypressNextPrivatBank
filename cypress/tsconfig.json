@@ -1,0 +1,6 @@
+{
+    "include": [
+        "../node_modules/@shelex/cypress-allure-plugin/reporter",
+        "../node_modules/cypress"
+    ]
+}
