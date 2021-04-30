@@ -1,10 +1,10 @@
 {
     "baseUrl" : "https://next.privat24.ua/",
     "ignoreTestFiles" : "**/examples/**",
+    "projectId": "6wdby5",
     "env": {
         "allureResultsPath": "allure-reports/results",
         "tmsPrefix": "https://url-to-bug-tracking-system/task-",
         "issuePrefix": "https://url-to-tms/tests/caseId-"
-    },
-    "projectId": "6wdby5"
+    }
 }
