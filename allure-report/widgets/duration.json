@@ -1,0 +1,31 @@
+[ {
+  "uid" : "aca380527f1c302d",
+  "name" : "Travel payment",
+  "time" : {
+    "start" : 1619711585939,
+    "stop" : 1619711595984,
+    "duration" : 10045
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "981a66ad060099bb",
+  "name" : "Mobile phone replenishment",
+  "time" : {
+    "start" : 1619711523601,
+    "stop" : 1619711550630,
+    "duration" : 27029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d58d55d32521d3e4",
+  "name" : "Money transfer between foreing cards",
+  "time" : {
+    "start" : 1619711563281,
+    "stop" : 1619711577603,
+    "duration" : 14322
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

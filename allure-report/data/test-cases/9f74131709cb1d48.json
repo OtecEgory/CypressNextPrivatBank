@@ -1,0 +1,610 @@
+{
+  "uid" : "9f74131709cb1d48",
+  "name" : "Mobile phone replenishment",
+  "fullName" : "Mobile phone replenishment",
+  "historyId" : "86b90f6b1eeb65d45ccc3ca5428e46a8",
+  "time" : {
+    "start" : 1619711172123,
+    "stop" : 1619711193630,
+    "duration" : 21507
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://next.privat24.ua/mobile?lang=en\")",
+      "time" : {
+        "start" : 1619711172160,
+        "stop" : 1619711184631,
+        "duration" : 12471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=446063624&t=pageview&_s=1&dl=https://next.privat24.ua/mobile?lang=en&ul=ru&de=UTF-8&dt=Ваш живий Інтернет-Банк&sd=24-bit&sr=1920x1080&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=115421351&gjid=355367699&cid=1481461427.1619711175&tid=UA-29683426-11&_gid=1092910394.1619711175&_r=1&gtm=2ou4l3&z=1001957828",
+      "time" : {
+        "start" : 1619711184623,
+        "stop" : 1619711184623,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://next.privat24.ua/api/p24/init?lang=en&_=1619711178573",
+      "time" : {
+        "start" : 1619711184624,
+        "stop" : 1619711184624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/static_api/maintenance/list.json",
+      "time" : {
+        "start" : 1619711184624,
+        "stop" : 1619711184624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/cardslist?xref=740bcb56a1992c247e44331321bf7f95",
+      "time" : {
+        "start" : 1619711184625,
+        "stop" : 1619711184625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/exchangerates/all?xref=740bcb56a1992c247e44331321bf7f95",
+      "time" : {
+        "start" : 1619711184625,
+        "stop" : 1619711184625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/basket/get?xref=740bcb56a1992c247e44331321bf7f95",
+      "time" : {
+        "start" : 1619711184627,
+        "stop" : 1619711184627,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/cardslist?xref=740bcb56a1992c247e44331321bf7f95",
+      "time" : {
+        "start" : 1619711184629,
+        "stop" : 1619711184629,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://channelapi.liqpay.ua/1.0/token",
+      "time" : {
+        "start" : 1619711184631,
+        "stop" : 1619711184631,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"phone-number\"]\")",
+      "time" : {
+        "start" : 1619711184632,
+        "stop" : 1619711184699,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"686979712\")",
+      "time" : {
+        "start" : 1619711184699,
+        "stop" : 1619711185794,
+        "duration" : 1095
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"amount\"]\")",
+      "time" : {
+        "start" : 1619711185794,
+        "stop" : 1619711185819,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"1\")",
+      "time" : {
+        "start" : 1619711185819,
+        "stop" : 1619711186282,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"numberdebitSource\"]\")",
+      "time" : {
+        "start" : 1619711186282,
+        "stop" : 1619711186314,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"4552331448138217\")",
+      "time" : {
+        "start" : 1619711186314,
+        "stop" : 1619711187327,
+        "duration" : 1013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"expiredebitSource\"]\")",
+      "time" : {
+        "start" : 1619711187327,
+        "stop" : 1619711187347,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"0524\")",
+      "time" : {
+        "start" : 1619711187347,
+        "stop" : 1619711187610,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"cvvdebitSource\"]\")",
+      "time" : {
+        "start" : 1619711187610,
+        "stop" : 1619711187666,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"111\")",
+      "time" : {
+        "start" : 1619711187666,
+        "stop" : 1619711188083,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "wait (\"3000\")",
+      "time" : {
+        "start" : 1619711188083,
+        "stop" : 1619711191096,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://next.privat24.ua/api/p24/pub/mobipay",
+      "time" : {
+        "start" : 1619711191096,
+        "stop" : 1619711191096,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"button[type=\"submit\"]\")",
+      "time" : {
+        "start" : 1619711191096,
+        "stop" : 1619711191130,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1619711191131,
+        "stop" : 1619711191528,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://next.privat24.ua/api/p24/pub/mobipay",
+      "time" : {
+        "start" : 1619711191527,
+        "stop" : 1619711191527,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"card\"]\")",
+      "time" : {
+        "start" : 1619711191528,
+        "stop" : 1619711193371,
+        "duration" : 1843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **<td.sc-cqpYsc.dFIhCK.card_1B8zNX9r-K>** to have text **4552 ** ** 8217** assert",
+      "time" : {
+        "start" : 1619711193371,
+        "stop" : 1619711193371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/basket/get?xref=740bcb56a1992c247e44331321bf7f95",
+      "time" : {
+        "start" : 1619711193371,
+        "stop" : 1619711193371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"amount\"]\")",
+      "time" : {
+        "start" : 1619711193371,
+        "stop" : 1619711193401,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **[ <input.sc-bwCtUz.dXSrqQ>, 1 more... ]** to have text **'1'** assert",
+      "time" : {
+        "start" : 1619711193400,
+        "stop" : 1619711193400,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"commission\"]\")",
+      "time" : {
+        "start" : 1619711193402,
+        "stop" : 1619711193428,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "eq (\"1\")",
+      "time" : {
+        "start" : 1619711193429,
+        "stop" : 1619711193463,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **<span>** to have text **'2'** assert",
+      "time" : {
+        "start" : 1619711193462,
+        "stop" : 1619711193462,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".amount\")",
+      "time" : {
+        "start" : 1619711193463,
+        "stop" : 1619711193487,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "find (\"span\")",
+      "time" : {
+        "start" : 1619711193487,
+        "stop" : 1619711193527,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **<span>** to have text **'1'** assert",
+      "time" : {
+        "start" : 1619711193527,
+        "stop" : 1619711193527,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".amount\")",
+      "time" : {
+        "start" : 1619711193527,
+        "stop" : 1619711193555,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "find (\"small\")",
+      "time" : {
+        "start" : 1619711193555,
+        "stop" : 1619711193626,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **'<small>'** to contain text **'UAH'** assert",
+      "time" : {
+        "start" : 1619711193626,
+        "stop" : 1619711193626,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 38,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f74131709cb1d48.json",
+  "parameterValues" : [ ]
+}

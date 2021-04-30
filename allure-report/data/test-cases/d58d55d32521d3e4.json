@@ -1,0 +1,221 @@
+{
+  "uid" : "d58d55d32521d3e4",
+  "name" : "Money transfer between foreing cards",
+  "fullName" : "Money transfer between foreing cards",
+  "historyId" : "1f59a84fe794ad4d563ab7dd4a146b4c",
+  "time" : {
+    "start" : 1619711563281,
+    "stop" : 1619711577603,
+    "duration" : 14322
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.\n    at BasePage.typeDebitCardData (https://next.privat24.ua/__cypress/tests?p=cypress\\integration\\transfers.js:229:8)\n    at Context.eval (https://next.privat24.ua/__cypress/tests?p=cypress\\integration\\transfers.js:108:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.\n    at BasePage.typeDebitCardData (https://next.privat24.ua/__cypress/tests?p=cypress\\integration\\transfers.js:229:8)\n    at Context.eval (https://next.privat24.ua/__cypress/tests?p=cypress\\integration\\transfers.js:108:22)",
+    "steps" : [ {
+      "name" : "visit (\"https://next.privat24.ua/money-transfer/card?lang=en\")",
+      "time" : {
+        "start" : 1619711563451,
+        "stop" : 1619711570820,
+        "duration" : 7369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=496972125&t=pageview&_s=1&dl=https://next.privat24.ua/money-transfer/card?lang=en&ul=ru&de=UTF-8&dt=Ваш живий Інтернет-Банк&sd=24-bit&sr=1920x1080&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=488999889&gjid=90232588&cid=1440913550.1619711565&tid=UA-29683426-11&_gid=1712357709.1619711565&_r=1&gtm=2ou4l3&z=1745591915",
+      "time" : {
+        "start" : 1619711570818,
+        "stop" : 1619711570818,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://next.privat24.ua/api/p24/init?lang=en&_=1619711570566",
+      "time" : {
+        "start" : 1619711570820,
+        "stop" : 1619711570820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[data-qa-node=\"numberdebitSource\"]\")",
+      "time" : {
+        "start" : 1619711570821,
+        "stop" : 1619711577601,
+        "duration" : 6780
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/static_api/maintenance/list.json",
+      "time" : {
+        "start" : 1619711577598,
+        "stop" : 1619711577598,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/cardslist?xref=ad471d938e99d0a4994105444a67cb3e",
+      "time" : {
+        "start" : 1619711577599,
+        "stop" : 1619711577599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/exchangerates/all?xref=ad471d938e99d0a4994105444a67cb3e",
+      "time" : {
+        "start" : 1619711577600,
+        "stop" : 1619711577600,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/basket/get?xref=ad471d938e99d0a4994105444a67cb3e",
+      "time" : {
+        "start" : 1619711577600,
+        "stop" : 1619711577600,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/paymenttemplates/getalltemplates?action=get&xref=ad471d938e99d0a4994105444a67cb3e",
+      "time" : {
+        "start" : 1619711577600,
+        "stop" : 1619711577600,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://next.privat24.ua/api/p24/pub/cardslist?xref=ad471d938e99d0a4994105444a67cb3e",
+      "time" : {
+        "start" : 1619711577601,
+        "stop" : 1619711577601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "85a377362334fd8e",
+      "name" : "transfers.js.mp4",
+      "source" : "85a377362334fd8e.mp4",
+      "type" : "video/mp4",
+      "size" : 297876
+    }, {
+      "uid" : "cf9b56cb50c3fbe7",
+      "name" : "transfers.js:2021-04-29T15:52:55.795Z",
+      "source" : "cf9b56cb50c3fbe7.png",
+      "type" : "image/png",
+      "size" : 178599
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b3daa3c6cee598d",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.",
+      "time" : {
+        "start" : 1619711197243,
+        "stop" : 1619711208275,
+        "duration" : 11032
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d58d55d32521d3e4.json",
+  "parameterValues" : [ ]
+}

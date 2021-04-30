@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Apr 29 18:53:05 MSK 2021","Thu Apr 29 18:53:15 MSK 2021","10045","","","","","","Travel payment",""
+"passed","Thu Apr 29 18:52:03 MSK 2021","Thu Apr 29 18:52:30 MSK 2021","27029","","","","","","Mobile phone replenishment",""
+"failed","Thu Apr 29 18:52:43 MSK 2021","Thu Apr 29 18:52:57 MSK 2021","14322","","","","","","Money transfer between foreing cards",""
