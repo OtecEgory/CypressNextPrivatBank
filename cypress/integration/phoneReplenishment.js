@@ -4,11 +4,11 @@ import {basePage} from '../support/pages/basePage'
 
 it('Mobile phone replenishment', () => {
     basePage.open(data.urlMobileReplenishment)
-
+    
     mobileReplenishment.typePhoneNumber(data.typeNumber)
 
     basePage.typeAmount(data.typeAmount)
-
+    //card test
     basePage.typeDebitCardData(
         data.cardNumber,
         data.expDate,
