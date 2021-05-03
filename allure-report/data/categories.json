@@ -1,43 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"numberdebitSource\"]`, but never found it.",
-      "children" : [ {
-        "name" : "Money transfer between foreing cards",
-        "uid" : "d58d55d32521d3e4",
-        "parentUid" : "bb0b94fc02fe36e711f860c592276063",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619711563281,
-          "stop" : 1619711577603,
-          "duration" : 14322
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bb0b94fc02fe36e711f860c592276063"
-    }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `[data-qa-node=\"query\"]`, but never found it.",
-      "children" : [ {
-        "name" : "Travel payment",
-        "uid" : "aca380527f1c302d",
-        "parentUid" : "d62cdad21bcfab127dd613620399cdd8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619711585939,
-          "stop" : 1619711595984,
-          "duration" : 10045
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d62cdad21bcfab127dd613620399cdd8"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

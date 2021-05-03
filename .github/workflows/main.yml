@@ -14,3 +14,9 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           start: npm start
+
+      - name: Allure reports
+        uses: allure clear
+        uses: allure generate allure-results
+        uses: allure generate allure-report
+        uses: allure open allure-report
