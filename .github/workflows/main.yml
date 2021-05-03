@@ -1,9 +1,17 @@
-image: cypress/base:10
+name: Chrome
 
-stages:
-  - test
-test:
-  stage: test
-  script:
-    - npm install
-    - npm run runHeadless
+on: push
+
+jobs:
+  chrome:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Chrome
+        uses: cypress-io/github-action@v2
+        timeout-minutes: 10
+        with:
+          build: npm run build
+          start: npm start
+          browser: chrome
