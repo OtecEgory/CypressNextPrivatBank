@@ -1,17 +1,17 @@
-name: Chrome
+name: Cypress Tests
 
-on: push
+on: [push]
 
 jobs:
-  chrome:
-    runs-on: ubuntu-18.04
+  cypress-run:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
-      - name: Chrome
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
         uses: cypress-io/github-action@v2
-        timeout-minutes: 10
         with:
           build: npm run build
           start: npm start
-          browser: chrome
