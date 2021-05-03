@@ -16,7 +16,5 @@ jobs:
           start: npm start
 
       - name: Allure reports
-        uses: allure clear
-        uses: allure generate allure-results
-        uses: allure generate allure-report
-        uses: allure open allure-report
+        run: |
+          allure open allure-report
