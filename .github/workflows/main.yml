@@ -14,6 +14,3 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           start: npm start
-
-      - name: Allure reports
-        run: allure open allure-report
