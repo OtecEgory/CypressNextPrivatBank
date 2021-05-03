@@ -2,7 +2,7 @@ import {mobileReplenishment} from '../support/pages/mobileReplenishment'
 import {data} from '../support/data'
 import {basePage} from '../support/pages/basePage'
 
-it('Mobile phone replenishment', () => {
+it.only('Mobile phone replenishment', () => {
     basePage.open(data.urlMobileReplenishment)
     
     mobileReplenishment.typePhoneNumber(data.typeNumber)
