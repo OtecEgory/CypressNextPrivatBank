@@ -17,4 +17,4 @@ jobs:
 
       - name: Allure reports
         run: |
-          allure open allure-report
+          allure:report
