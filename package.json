@@ -5,18 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "node cypress/scripts/runner.js",
-    "build": "npm run lint && npm run types",
-    "start": "serve --listen ${PORT:-8080}",
-    "start:ci": "serve --no-clipboard --listen ${PORT:-8080}",
-    "start:ci:windows": "serve --no-clipboard --listen 8080",
-    "dev": "npm start",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
+    "npm:start": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "cy:open": "yarn cypress open --env allure=true --config integrationFolder=cypress/integration/examples,testFiles=**/*.js --browser chrome",
+    "cy:run": "yarn cypress run --config video=false,integrationFolder=cypress/integration/examples --env allure=true --browser chrome",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
-    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
-    "runHeadless": "./node_modules/.bin/cypress run --headless",
-    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome "
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
   },
   "author": "Egor Antsyshkin",
   "license": "ISC",
