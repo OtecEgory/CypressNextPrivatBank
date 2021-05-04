@@ -12,6 +12,9 @@
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
     "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "author": "Egor Antsyshkin",
   "license": "ISC",
   "dependencies": {
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.5.1",
-    "allure-commandline": "^2.13.8"
+    "allure-commandline": "^2.13.8",
+    "cucumber": "^7.0.0-rc.0"
   }
 }
